@@ -8,8 +8,9 @@ while True:
             print('Only number, please!')
 
     if d%4==0:
-        print('This is a high year!')
+        print('This is a leap year!')
     elif d%100==0 and d%400==0:
-        print('This is a high year!')
+        print('This is a leap year!')
     else:
-        print('This is a usual year')
+        print("This isn't a leap year")
+
